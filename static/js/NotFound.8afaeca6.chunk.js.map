@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/NotFound.8afaeca6.chunk.js","mappings":"oLACaA,EAAW,WAAH,OAAS,SAAC,KAAa,GAAI,C","sources":["pages/NotFound.tsx"],"sourcesContent":["import { NotFoundBlock } from \"components\";\r\nexport const NotFound = () => <NotFoundBlock />;\r\n"],"names":["NotFound"],"sourceRoot":""}
