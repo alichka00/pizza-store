@@ -2,6 +2,7 @@ import { CartEmpty, CartItem } from "components";
 import { Link } from "react-router-dom";
 import { clearItems } from "store/cart";
 import { selectCart } from "store/cart/selectors";
+import { CartItemType } from "store/cart/types";
 import { useAppSelector, useAppDispatch } from "store/hooks";
 
 export const Cart = () => {
@@ -131,7 +132,7 @@ export const Cart = () => {
               </div>
             </div>
             <div className="content__items">
-              {items.map((item: any) => (
+              {items.map((item: CartItemType) => (
                 <CartItem key={item.id} {...item} />
               ))}
             </div>

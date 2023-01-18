@@ -1,6 +1,6 @@
 import { addItem, minusItem, removeItem } from "store/cart";
 import { useAppDispatch } from "store/hooks";
-import { CartItem as CartItemType } from "store/cart/types";
+import { CartItemType as CartItemType } from "store/cart/types";
 
 type CartItemProps = {
   id: string;

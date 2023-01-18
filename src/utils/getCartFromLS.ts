@@ -1,4 +1,4 @@
-import { CartItem } from "store/cart/types";
+import { CartItemType } from "store/cart/types";
 import { calcTotalPrice } from "./calcTotalPrice";
 
 export const getCartFromLS = () => {
@@ -7,7 +7,7 @@ export const getCartFromLS = () => {
   const totalPrice = calcTotalPrice(items);
 
   return {
-    items: items as CartItem[],
+    items: items as CartItemType[],
     totalPrice,
   };
 };

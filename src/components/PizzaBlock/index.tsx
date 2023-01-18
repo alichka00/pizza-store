@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAppDispatch, useAppSelector } from "store/hooks";
 import { addItem } from "store/cart";
-import { CartItem } from "store/cart/types";
+import { CartItemType } from "store/cart/types";
 import { Link } from "react-router-dom";
 import { selectCartItemById } from "store/cart/selectors";
 
@@ -32,7 +32,7 @@ export const PizzaBlock = ({
   const addedCount = cartItem ? cartItem.count : 0;
 
   const onClickAdd = () => {
-    const item: CartItem = {
+    const item: CartItemType = {
       id,
       title,
       price,

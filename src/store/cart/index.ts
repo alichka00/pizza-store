@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { CartItem } from "./types";
+import { CartItemType } from "./types";
 import { getCartFromLS } from "utils/getCartFromLS";
 import { calcTotalPrice } from "utils/calcTotalPrice";
 import { I_CartState } from "./types";
@@ -11,7 +11,7 @@ const cartSlice = createSlice({
   name: "cart",
   initialState,
   reducers: {
-    addItem(state, action: PayloadAction<CartItem>) {
+    addItem(state, action: PayloadAction<CartItemType>) {
       const findItem = state.items.find((obj) => obj.id === action.payload.id);
 
       if (findItem) {

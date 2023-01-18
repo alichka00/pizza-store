@@ -12,6 +12,7 @@ import {
   PizzaBlock,
   Pagination,
 } from "components";
+import { Pizza } from "store/pizza/types";
 
 export const Home = () => {
   const { categoryId, sort, currentPage, searchValue } =
@@ -75,7 +76,9 @@ export const Home = () => {
         <div className="content__items">
           {status === "loading"
             ? [...new Array(6)].map((_, idx) => <Skeleton key={idx} />)
-            : items.map((item: any) => <PizzaBlock key={item.id} {...item} />)}
+            : items.map((item: Pizza) => (
+                <PizzaBlock key={item.id} {...item} />
+              ))}
         </div>
       )}
       <Pagination currentPage={currentPage} onCgangePage={onChangePage} />
