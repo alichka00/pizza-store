@@ -139,12 +139,10 @@ export const Cart = () => {
             <div className="cart__bottom">
               <div className="cart__bottom-details">
                 <span>
-                  {" "}
-                  Всього піц: <b>{totalCount} шт.</b>{" "}
+                  Всього піц: <b>{totalCount} шт.</b>
                 </span>
                 <span>
-                  {" "}
-                  Сума замовлення: <b>{totalPrice} ₴</b>{" "}
+                  Сума замовлення: <b>{totalPrice} ₴</b>
                 </span>
               </div>
               <div className="cart__bottom-buttons">
