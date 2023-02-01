@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-pizza/static/css/main.a3b53237.css",
-    "main.js": "/react-pizza/static/js/main.97ee62d4.js",
-    "Cart.js": "/react-pizza/static/js/Cart.0a2c8af1.chunk.js",
-    "FullPizza.js": "/react-pizza/static/js/FullPizza.d01cf751.chunk.js",
-    "NotFound.js": "/react-pizza/static/js/NotFound.8afaeca6.chunk.js",
-    "static/media/empty-cart.png": "/react-pizza/static/media/empty-cart.db905d1f4b063162f25b.png",
-    "static/media/pizza-logo.svg": "/react-pizza/static/media/pizza-logo.56ac87032d8f6fdf863326acd06c0d97.svg",
-    "index.html": "/react-pizza/index.html",
-    "main.a3b53237.css.map": "/react-pizza/static/css/main.a3b53237.css.map",
-    "main.97ee62d4.js.map": "/react-pizza/static/js/main.97ee62d4.js.map",
-    "Cart.0a2c8af1.chunk.js.map": "/react-pizza/static/js/Cart.0a2c8af1.chunk.js.map",
-    "FullPizza.d01cf751.chunk.js.map": "/react-pizza/static/js/FullPizza.d01cf751.chunk.js.map",
-    "NotFound.8afaeca6.chunk.js.map": "/react-pizza/static/js/NotFound.8afaeca6.chunk.js.map"
+    "main.css": "/pizza-store/static/css/main.f444f2b4.css",
+    "main.js": "/pizza-store/static/js/main.45d9613a.js",
+    "Cart.js": "/pizza-store/static/js/Cart.501af6fd.chunk.js",
+    "FullPizza.js": "/pizza-store/static/js/FullPizza.361fa95d.chunk.js",
+    "NotFound.js": "/pizza-store/static/js/NotFound.3b3c2a34.chunk.js",
+    "static/media/empty-cart.png": "/pizza-store/static/media/empty-cart.db905d1f4b063162f25b.png",
+    "static/media/pizza-logo.svg": "/pizza-store/static/media/pizza-logo.56ac87032d8f6fdf863326acd06c0d97.svg",
+    "index.html": "/pizza-store/index.html",
+    "main.f444f2b4.css.map": "/pizza-store/static/css/main.f444f2b4.css.map",
+    "main.45d9613a.js.map": "/pizza-store/static/js/main.45d9613a.js.map",
+    "Cart.501af6fd.chunk.js.map": "/pizza-store/static/js/Cart.501af6fd.chunk.js.map",
+    "FullPizza.361fa95d.chunk.js.map": "/pizza-store/static/js/FullPizza.361fa95d.chunk.js.map",
+    "NotFound.3b3c2a34.chunk.js.map": "/pizza-store/static/js/NotFound.3b3c2a34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3b53237.css",
-    "static/js/main.97ee62d4.js"
+    "static/css/main.f444f2b4.css",
+    "static/js/main.45d9613a.js"
   ]
 }
